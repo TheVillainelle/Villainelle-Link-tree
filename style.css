@@ -47,7 +47,7 @@ body {
 }
 
 #userName {
-    color: var(--bgColor);
+    color: var(--accentColor);
     font-size: 1.75rem;
     font-weight: bold;
     line-height: 1.25;
@@ -61,6 +61,7 @@ body {
     /* animation-delay: 15s; */
     overflow: hidden;
     /* background: linear-gradient(90deg, #f00, #0f0, #00f); */
+    background: var(--rainbow);
     background-repeat: round;
     background-size: 80%;
     animation: animate linear 30s infinite forwards;
@@ -70,7 +71,7 @@ body {
 }
 
 #bio {
-    color: var(--bgColor);
+    color: var(--accentColor);
     font-size: 1rem;
     font-weight: bold;
     line-height: 1.25;
@@ -106,8 +107,8 @@ body {
 .link {
     position: relative;
     background-color: transparent;
-    color: var(--bgColor);
-    border: solid var(--bgColor) 2px;
+    color: var(--accentColor);
+    border: solid var(--accentColor) 2px;
     border-radius: 10px;
     font-size: 1rem;
     text-align: center;
@@ -123,14 +124,14 @@ body {
 
 @media (hover: hover) {
     .link:hover {
-        background-color: var(--bgColor);
-        color: var(--accentColor);
+        background-color: var(--accentColor);
+        color: var(--bgColor);
     }
 }
 
 .link:active {
-    background-color: var(--bgColor);
-    color: var(--accentColor);
+    background-color: var(--accentColor);
+    color: var(--bgColor);
 }
 
 .svg {
@@ -141,7 +142,7 @@ body {
 #hashtag {
     position: relative;
     padding-bottom: 20px;
-    color: var(--bgColor);
+    color: var(--accentColor);
     font-size: 1rem;
     display: block;
     font-family: var(--font);
@@ -222,7 +223,7 @@ body {
     width: auto;
     height: auto;
     margin: 56px;
-    background-color: var(--accentColor);
+    background-color: var(--bgColor);
     border-radius: 10%;
     /* transform: rotate(32deg); */
     transform: scale(0);
@@ -233,7 +234,7 @@ body {
     font-family : Baskerville, Georgia, serif;
     font-style : italic;
     position: flex;
-    color: var(--bgColor);
+    color: var(--accentColor);
     padding: 20px;
     text-align: center;
     font-size: 1rem;
