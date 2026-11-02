@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Pirata+one:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet');
 
 :root {
     --bgColor: #ff9049;
     --bgColor2: #4f1b6f;
     --rainbow: linear-gradient(90deg, #f00, rgb(255, 145, 0), #ff0, #0f0, #0aa, #75d5eb, #fdafc7, #fff, #fdafc7, #75d5eb, #00f, rgb(137, 0, 216), #f00);
     --accentColor: #FFF;
-    --font: 'Karla', sans-serif;
+    --font: 'Pirata One', system-ui;
     --delay: 3s;
     --webkit-overflow-scrolling: touch
 }
