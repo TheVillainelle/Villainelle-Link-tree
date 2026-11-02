@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
 
 :root {
-    --bgColor: #FFFFFF;
-    --bgColor2: #4f1b6f;
+    --bgColor: #000000;
+    --bgColor2: #000000;
     --accentColor: #FFF;
     --font: 'Pirata One', system-ui;
     --delay: 3s;
