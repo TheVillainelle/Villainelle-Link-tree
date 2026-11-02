@@ -47,7 +47,7 @@ body {
 }
 
 #userName {
-    color: var(--bgColor);
+    color: #FFF;
     font-size: 1.75rem;
     font-weight: bold;
     line-height: 1.25;
