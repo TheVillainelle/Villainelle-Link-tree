@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Pirata+One&display=swap');
 
 :root {
     --bgColor: #000000;
@@ -69,7 +69,8 @@ body {
 }
 
 #bio {
-    color: var(--accentColor);
+    font-family: DidactGothic
+	color: var(--accentColor);
     font-size: 1rem;
     font-weight: bold;
     line-height: 1.25;
