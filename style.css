@@ -75,7 +75,6 @@ body {
     font-weight: bold;
     line-height: 1.25;
     display: block;
-    font-family: var(--font);
     max-width: 625px;
     width: auto;
     margin: 27px auto;
